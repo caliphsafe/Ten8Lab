@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/zeiterion",
+      "destination": "/api/zeiterion"
+    },
+    {
+      "source": "/zeiterion/",
+      "destination": "/api/zeiterion"
+    }
+  ]
+}
